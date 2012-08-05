@@ -1,0 +1,39 @@
+*{
+	padding:0;
+	margin:0;	
+}
+
+.container{
+	height:650px;
+	background:url(images/bg.jpg) no-repeat;	
+}
+.menu{
+	height:40px;
+	background-color:#00FF99;
+}
+.logo {
+	height: 135px;
+	background-color:#060;
+}
+.box{
+	outline:3px dashed red;
+	min-height:	330px;
+}
+.box > div{
+	height:250px;
+	background-color:#006600;
+	width:165px;
+	margin-right:5px;
+	//-webkit-transform:rotate(-10deg);
+	//-webkit-transition:500ms;
+}
+//.box > div:first-child{
+	margin-right:65px;	
+}
+.//box div:hover{
+	-webkit-transform:rotate(0deg);
+	-webkit-box-shadow:5px 5px 15px #000;
+	-webkit-transition:500ms;
+	z-index:1;
+	position:relative;
+}
